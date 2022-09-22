@@ -17,7 +17,6 @@ BL = Fore.BLACK
 Y = Fore.YELLOW
 
 ip=requests.get('https://api.ipify.org').text
-ua=requests.get('http://xenzi-ganz.6te.net/User-Agent.php').text
 localtime=time.asctime(time.localtime(time.time()))
 
 hijau="\033[1;92m "
