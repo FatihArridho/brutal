@@ -1,7 +1,7 @@
-import os,sys,time,os,json,requests
+import os,sys,time,os,json,requests,json
 from colorama import Fore,Back,init
 from requests import get,post
-
+from urllib import request
 
 def autoketik(s):
     for c in s + "\n":
@@ -17,6 +17,8 @@ BL = Fore.BLACK
 Y = Fore.YELLOW
 
 ip=requests.get('https://api.ipify.org').text
+visitor=request.urlopen('https://api.countapi.xyz/hit/brutal-spam-wa')
+getvisit=json.loads(visitor.read())
 localtime=time.asctime(time.localtime(time.time()))
 
 hijau="\033[1;92m "
@@ -39,13 +41,13 @@ autoketik(f"""
 {hijau}╚═╗{merah}├─┘├─┤│││  {biru}║║║├─┤├─┤ │ {putih}└─┐{kuning}├─┤├─┘ ├─┘
 {hijau}╚═╝{merah}┴  ┴ ┴┴ ┴  {biru}╚╩╝┴ ┴┴ ┴ ┴ {putih}└─┘{kuning}┴ ┴┴   ┴ {ungu}V1
 {abu}-----------------------------------------
-{putih}[{biru}•{putih}] {biru}Author {putih}: Fatih Arridho
-{putih}[{biru}•{putih}] {abu}GitHub {putih}: FatihArridho
-{putih}[{biru}•{putih}] {merah}You{putih}Tube {putih}: Fatih Arridho
+{putih}[{biru}•{putih}] {biru}Author {putih}   : Fatih Arridho
+{putih}[{biru}•{putih}] {abu}GitHub {putih}   : FatihArridho
+{putih}[{biru}•{putih}] {merah}You{putih}Tube {putih}  : Fatih Arridho
 {putih}[{biru}•{putih}] {ungu}Instagram {putih}: @fatdho
-{W}[{Y}•{W}] Ip Kamu {R}:{Y} {ip}
-{W}[{Y}•{W}] Waktu/Jam {R}:{Y} {localtime}
-
+{W}[{Y}•{W}] Ip Kamu {putih}  :{Y} {ip}
+{W}[{Y}•{W}] Waktu/Jam {putih}:{Y} {localtime}
+{W}[{Y}•{W}] Total Run {putih}:{Y} {getvisit['value']}
 """)
 
 nomor = input(f"{W}[{R}• {kuning}•{hijau}•{W}] {biru}Nomor Target {W}: ")
