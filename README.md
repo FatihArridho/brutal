@@ -11,7 +11,7 @@ Script Ini GRATIS buat kalian dan tidak di ENCRYPT. Mengapa? Supaya kalian bisa 
 ## FOR TERMUX/UBUNTU/SSH USER
 ```bash
 apt update && apt upgrade
-apt install git - y
+apt install git -y
 apt install python -y
 git clone https://github.com/FatihArridho/brutal
 cd brutal
