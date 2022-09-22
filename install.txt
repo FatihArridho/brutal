@@ -1,4 +1,3 @@
-urllib
 colorama
 requests
 mechanize
