@@ -1,9 +1,25 @@
+<p align="center">
+<img src="https://github.com/FatihArridho.png" alt="BRUTAL SPAM WHATSAPP" width="100"/>
+
+
+</p>
+<p align="center">
+<a href="#"><img title="BRUTAL SPAM WHATSAPP" src="https://img.shields.io/badge/BRUTAL SPAM WHATSAPP-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+</p>
+<p align="center">
+<a href="https://github.com/FatihArridho?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/FatihArridho?color=red&style=flat-square"></a>
+<a href="https://github.com/FatihArridho/brutal/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/FatihArridho/brutal?color=blue&style=flat-square"></a>
+<a href="https://github.com/FatihArridho/brutal/network/members"><img title="Forks" src="https://img.shields.io/github/forks/FatihArridho/brutal?color=red&style=flat-square"></a>
+<a href="https://github.com/FatihArridho/brutal/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/FatihArridho/brutal?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/FatihArridho/brutal"><img title="Open Source" src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103"></a>
+<a href="https://github.com/FatihArridho/brutal"><img title="Size" src="https://img.shields.io/github/repo-size/FatihArridho/brutal?style=flat-square&color=green"></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FFatihArridho%2Fbrutal&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
+</p>
+</div>
+
 ## NOTE
 Jangan menyalahgunakan script ini, gunakan script ini dengan bijak. Dosa ditanggung yang pakai !
 
-<p align="center">
-	<img src="https://github.com/FatihArridho.png" width="35%" style="margin-left: auto;margin-right: auto;display: block;">
-</p>
 <h1 align="center">BRUTAL-SPAM-WA</h1>
 
 Script Ini GRATIS buat kalian dan tidak di ENCRYPT. Mengapa? Supaya kalian bisa belajar recode dan mengerti tentang python.
