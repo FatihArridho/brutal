@@ -13,7 +13,7 @@ Script Ini GRATIS buat kalian dan tidak di ENCRYPT. Mengapa? Supaya kalian bisa 
 apt update && apt upgrade
 apt install git - y
 apt install python -y
-git clone https://github.com/FatihArridho/brutal.py
+git clone https://github.com/FatihArridho/brutal
 cd brutal
 pip install -r install.txt
 python brutal.py
