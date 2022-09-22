@@ -8,6 +8,9 @@ Jangan menyalahgunakan script ini, gunakan script ini dengan bijak. Dosa ditangg
 
 Script Ini GRATIS buat kalian dan tidak di ENCRYPT. Mengapa? Supaya kalian bisa belajar recode dan mengerti tentang python.
 
+## DOWNLOAD TERMUX FDROID
+* Unduh & Install Termux [`Klik Disini`](https://f-droid.org/repo/com.termux_118.apk)
+
 ## FOR TERMUX/UBUNTU/SSH USER
 ```bash
 apt update && apt upgrade
