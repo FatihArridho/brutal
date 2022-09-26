@@ -31,9 +31,9 @@ Script Ini GRATIS buat kalian dan tidak di ENCRYPT. Mengapa? Supaya kalian bisa 
 ```bash
 apt update && apt upgrade
 apt install git -y
-apt install python -y
+apt install python3-pip
 git clone https://github.com/FatihArridho/brutal
 cd brutal
-pip install -r install.txt
-python brutal.py
+pip3 install -r install.txt
+python3 brutal.py
 ```
