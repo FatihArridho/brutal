@@ -27,7 +27,7 @@ Script Ini GRATIS buat kalian dan tidak di ENCRYPT. Mengapa? Supaya kalian bisa 
 ## DOWNLOAD TERMUX FDROID
 * Unduh & Install Termux [`Klik Disini`](https://f-droid.org/repo/com.termux_118.apk)
 
-## FOR TERMUX/UBUNTU/SSH USER
+## FOR TERMUX/SSH USER
 ```bash
 apt update && apt upgrade
 apt install git -y
@@ -36,4 +36,15 @@ git clone https://github.com/FatihArridho/brutal
 cd brutal
 pip install -r install.txt
 python brutal.py
+```
+
+## FOR VPS UBUNTU USER
+```bash
+apt update && apt upgrade
+apt install git -y
+apt install python3-pip
+git clone https://github.com/FatihArridho/brutal
+cd brutal
+pip3 install -r install.txt
+python3 brutal.py
 ```
