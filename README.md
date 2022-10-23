@@ -29,7 +29,7 @@ Script Ini GRATIS buat kalian dan tidak di ENCRYPT. Mengapa? Supaya kalian bisa 
 
 ## FOR TERMUX/SSH USER
 ```bash
-apt update && apt upgrade
+apt update -y && apt upgrade -y
 apt install git -y
 apt install python -y
 git clone https://github.com/FatihArridho/brutal.git
