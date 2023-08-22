@@ -17,8 +17,10 @@ BL = Fore.BLACK
 Y = Fore.YELLOW
 
 ip=requests.get('https://api.ipify.org').text
-visitor=request.urlopen('https://api.countapi.xyz/hit/brutal-spam-wa')
-getvisit=json.loads(visitor.read())
+api_visitor='https://api.api-ninjas.com/v1/counter?id=test_id&hit=true'
+key_visitor='RFj75+sjo1hyWyBRuAkZhQ==d67tIuLmR53MDfjE'
+visitor=requests.get(api_visitor, headers={'X-Api-Key': key_visitor})
+getvisit=json.loads(visitor.text)
 localtime=time.asctime(time.localtime(time.time()))
 
 hijau="\033[1;92m "
